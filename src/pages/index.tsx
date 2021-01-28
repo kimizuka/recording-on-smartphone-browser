@@ -100,7 +100,6 @@ export default function IndexPage() {
       return;
     }
 
-    console.log(recordings);
     window.addEventListener('keypress', handleKeypress);
   }, [recordings]);
 
